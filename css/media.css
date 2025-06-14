@@ -73,6 +73,22 @@
 
   .hero-section {
     padding: 112px 0;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/tab-bg-min.jpg");
+    max-width: 1157px;
+  }
+
+  @media screen and (min-resolution: 2x) {
+    .hero-section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url("../images/tab-bg-2x-min.jpg");
+    }
   }
 
   .hero-title {
@@ -183,6 +199,22 @@
 
   .hero-section {
     padding: 188px 0;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/desk-bg-min.jpg");
+    max-width: 1440px;
+  }
+
+  @media screen and (min-resolution: 2x) {
+    .hero-section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url("../images/desk-bg-2x-min.jpg");
+    }
   }
 
   .hero-title {

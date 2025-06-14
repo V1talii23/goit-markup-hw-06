@@ -291,19 +291,30 @@ h3 {
 /* ==================================== HERO SECTION ======================== */
 
 .hero-section {
-  max-width: 1440px;
-  margin: 0 auto;
-  background-color: #2e2f42;
-  padding: 72px 0;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url("../images/hero-bg.jpg");
+    url("../images/mob-bg-min.jpg");
+  max-width: 767px;
+  margin: 0 auto;
+  background-color: #2e2f42;
+  padding: 72px 0;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
+
+@media screen and (min-resolution: 2x) {
+  .hero-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/mob-bg-2x-min.jpg");
+  }
+}
+
 .hero-title {
   font-weight: 700;
   font-size: 36px;
