@@ -213,7 +213,6 @@ h3 {
   padding-bottom: 24px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   height: 100%;
   overflow: auto;
 }
@@ -229,7 +228,6 @@ h3 {
   height: 24px;
   border-radius: 50%;
   background-color: #e7e9fc;
-  /* background-color: transparent; */
   border: 1px solid rgba(0, 0, 0, 0.1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -261,11 +259,15 @@ h3 {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.mobile-info-wrapper {
+  margin-top: auto;
+}
+
 .mobile-contact {
   font-style: normal;
 }
 
-.mobile-contact-list {
+.mobile-contact {
   margin-bottom: 48px;
 }
 
@@ -528,7 +530,7 @@ h3 {
 
 .footer {
   background-color: #2e2f42;
-  padding: 96px;
+  padding: 96px 0;
 }
 
 .footer-container {
